@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClarityBot - AI Life Guidance by Hemant Kumar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>ClarityBot</h1>
+        <p class="award">Made by College Student</p>
+        <p class="subtitle">
+          Hi! I'm Hemant Kumar, a student who made this AI to help other students find their path in life
+        </p>
+      </div>
+
+      <form id="clarityForm">
+        <div class="section">
+          <h3>Academic & Learning</h3>
+          <div class="form-group">
+            <label>Current Studies/Education Level</label>
+            <input
+              type="text"
+              id="education"
+              placeholder="e.g., Computer Science student, High School, Self-learning..."
+            />
+          </div>
+          <div class="form-group">
+            <label>Favorite Subjects/Topics</label>
+            <input
+              type="text"
+              id="subjects"
+              placeholder="e.g., Programming, Mathematics, Literature, Science..."
+            />
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Personal Interests & Passions</h3>
+          <div class="form-group">
+            <label>Hobbies & Creative Interests</label>
+            <input
+              type="text"
+              id="hobbies"
+              placeholder="e.g., Music, Art, Writing, Gaming, Sports..."
+            />
+          </div>
+          <div class="form-group">
+            <label>Skills You Want to Develop</label>
+            <input
+              type="text"
+              id="skills"
+              placeholder="e.g., Coding, Public Speaking, Leadership, Design..."
+            />
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Current State of Mind</h3>
+          <div class="form-group">
+            <label>How are you feeling about life right now?</label>
+            <textarea
+              id="feelings"
+              placeholder="Share your current emotions, thoughts, and mental state..."
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>What's confusing or challenging you?</label>
+            <textarea
+              id="challenges"
+              placeholder="What specific problems or decisions are you facing?"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Goals & Aspirations</h3>
+          <div class="form-group">
+            <label>Short-term Goals (Next 6 months)</label>
+            <textarea
+              id="shortGoals"
+              placeholder="What do you want to achieve soon?"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>Long-term Dreams (1-5 years)</label>
+            <textarea
+              id="longGoals"
+              placeholder="What's your bigger vision for the future?"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Achievements & Strengths</h3>
+          <div class="form-group">
+            <label>Recent Accomplishments</label>
+            <textarea
+              id="achievements"
+              placeholder="What have you achieved lately that you're proud of?"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>Your Key Strengths</label>
+            <input
+              type="text"
+              id="strengths"
+              placeholder="e.g., Problem-solving, Creativity, Persistence, Communication..."
+            />
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Life Context</h3>
+          <div class="form-group">
+            <label>Social Situation</label>
+            <input
+              type="text"
+              id="social"
+              placeholder="e.g., Introvert/Extrovert, Family situation, Friend circle..."
+            />
+          </div>
+          <div class="form-group">
+            <label>Energy Level & Motivation</label>
+            <select id="energy">
+              <option value="">Select your current energy level</option>
+              <option value="high">High - Very motivated and energetic</option>
+              <option value="medium">Medium - Balanced energy</option>
+              <option value="low">Low - Feeling tired or unmotivated</option>
+              <option value="mixed">Mixed - Up and down</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit">Get My Personal Roadmap</button>
+      </form>
+
+      <div id="response" style="display: none"></div>
+
+      <div class="footer">
+        <p>Made with love by student <strong>Hemant Kumar</strong></p>
+        <p>Just a student helping other students!</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
