@@ -1,4 +1,4 @@
-✨ ClarityBot – AI Life Guidance Assistant
+<h3>ClarityBot – AI Life Guidance Assistant</h3>
 By: Hemant Kumar
 
 ClarityBot is a smart and friendly AI web app I created to help students like me who feel confused, stuck, or unsure about their future. It gives clear, step-by-step advice based on what you’re feeling, what you like, your goals, and more.
